@@ -1,20 +1,18 @@
 import { defineConfig } from 'vitepress'
+import { sidebarJunior, sidebarSenior } from './sidebar'
 
 export default defineConfig({
   title: 'Kagol',
   description: '',
   base: '/reading/',
   themeConfig: {
-    nav: [],
+    nav: [
+      { text: '初中', link: '/junior/overview', activeMatch: '/junior/' },
+      { text: '高中', link: '/senior/overview', activeMatch: '/senior/' }
+    ],
     sidebar: {
-      '/': [
-        {
-          text: '散文',
-          items: [
-            { text: '春', link: '/spring' }
-          ]
-        }
-      ]
+      '/junior/': sidebarJunior(),
+      '/senior/': sidebarSenior()
     },
     footer: {
       message: 'Made with ❤ by',
