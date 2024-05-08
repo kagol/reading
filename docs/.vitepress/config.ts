@@ -13,10 +13,6 @@ export default defineConfig({
     sidebar: {
       '/junior/': sidebarJunior(),
       '/senior/': sidebarSenior()
-    },
-    footer: {
-      message: 'Made with ❤ by',
-      copyright: 'Kagol 和前端开源星球🌍'
     }
   }
 })
