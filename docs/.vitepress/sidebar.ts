@@ -4,47 +4,55 @@ export function sidebarJunior() {
       text: '七年级上册',
       collapsed: true,
       items: [
-        { text: '春', link: '/junior/spring' }
+        { text: '春', link: '/junior/7-1-1-spring' },
+        { text: '古代诗歌四首', link: '/junior/7-1-4' },
+        { text: '从百草园到三味书屋', link: '/junior/7-1-9' },
+        { text: '《论语》十二章', link: '/junior/7-1-11' },
+        { text: '诫子书', link: '/junior/7-1-15' },
+        { text: '天上的街市', link: '/junior/7-1-20' },
       ]
     },
     {
       text: '七年级下册',
       collapsed: true,
       items: [
-        { text: '河中石兽', link: '/junior/hezhongshishou' },
-        { text: '陋室铭', link: '/junior/loushimin' },
-        { text: '木兰诗', link: '/junior/mulanshi' },
-        { text: '驿路梨花', link: '/junior/yilulihua' },
-        { text: '紫藤萝瀑布', link: '/junior/zitengluopubu' },
-        { text: '最苦与最乐', link: '/junior/zuikuyuzuile' },
+        { text: '河中石兽', link: '/junior/7-2-24-hezhongshishou' },
+        { text: '短文两篇', link: '/junior/7-2-16' },
+        { text: '木兰诗', link: '/junior/7-2-8-mulanshi' },
+        { text: '驿路梨花', link: '/junior/7-2-14-yilulihua' },
+        { text: '紫藤萝瀑布', link: '/junior/7-2-17-zitengluopubu' },
+        { text: '最苦与最乐', link: '/junior/7-2-15-zuikuyuzuile' },
       ]
     },
     {
       text: '八年级上册',
       collapsed: true,
       items: [
-        { text: '三峡', link: '/junior/sanxia' }
+        { text: '三峡', link: '/junior/8-1-9-sanxia' }
       ]
     },
     {
       text: '八年级下册',
       collapsed: true,
       items: [
-        { text: '桃花源记', link: '/junior/taohuayuanji' }
+        { text: '桃花源记', link: '/junior/8-2-9-taohuayuanji' },
+        { text: '小石潭记', link: '/junior/8-2-10' },
+        { text: '唐诗二首', link: '/junior/8-2-24' },
       ]
     },
     {
       text: '九年级上册',
       collapsed: true,
       items: [
-        { text: '岳阳楼记', link: '/junior/yueyanglouji' }
+        { text: '岳阳楼记', link: '/junior/9-1-10-yueyanglouji' },
+        { text: '醉翁亭记', link: '/junior/9-1-11' },
       ]
     },
     {
       text: '九年级下册',
       collapsed: true,
       items: [
-        { text: '祖国啊，我亲爱的祖国', link: '/junior/zuguo' }
+        { text: '祖国啊，我亲爱的祖国', link: '/junior/9-2-1-zuguo' }
       ]
     },
   ]
