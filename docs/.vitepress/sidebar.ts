@@ -28,7 +28,13 @@ export function sidebarJunior() {
       text: '八年级上册',
       collapsed: true,
       items: [
-        { text: '三峡', link: '/junior/8-1-9-sanxia' }
+        { text: '三峡', link: '/junior/8-1-9-sanxia' },
+        { text: '短文二篇', link: '/junior/8-1-10' },
+        { text: '与朱元思书', link: '/junior/8-1-11' },
+        { text: '唐诗五首', link: '/junior/8-1-12' },
+        { text: '白杨礼赞', link: '/junior/8-1-14' },
+        { text: '愚公移山', link: '/junior/8-1-22' },
+        { text: '诗词五首', link: '/junior/8-1-24' },
       ]
     },
     {
@@ -37,6 +43,10 @@ export function sidebarJunior() {
       items: [
         { text: '桃花源记', link: '/junior/8-2-9-taohuayuanji' },
         { text: '小石潭记', link: '/junior/8-2-10' },
+        { text: '《诗经》二首', link: '/junior/8-2-12' },
+        { text: '《庄子》二则', link: '/junior/8-2-21' },
+        { text: '《礼记》二则', link: '/junior/8-2-22' },
+        { text: '马说', link: '/junior/8-2-23' },
         { text: '唐诗二首', link: '/junior/8-2-24' },
       ]
     },
@@ -46,13 +56,22 @@ export function sidebarJunior() {
       items: [
         { text: '岳阳楼记', link: '/junior/9-1-10-yueyanglouji' },
         { text: '醉翁亭记', link: '/junior/9-1-11' },
+        { text: '湖心亭看雪', link: '/junior/9-1-12' },
+        { text: '诗词三首', link: '/junior/9-1-13' },
       ]
     },
     {
       text: '九年级下册',
       collapsed: true,
       items: [
-        { text: '祖国啊，我亲爱的祖国', link: '/junior/9-2-1-zuguo' }
+        { text: '祖国啊，我亲爱的祖国', link: '/junior/9-2-1-zuguo' },
+        { text: '鱼我所欲也', link: '/junior/9-2-9' },
+        { text: '送东阳马生序', link: '/junior/9-2-11' },
+        { text: '词四首', link: '/junior/9-2-12' },
+        { text: '短文两篇', link: '/junior/9-2-13' },
+        { text: '曹刿论战', link: '/junior/9-2-20' },
+        { text: '出师表', link: '/junior/9-2-22' },
+        { text: '诗词曲五首', link: '/junior/9-2-23' },
       ]
     },
   ]
