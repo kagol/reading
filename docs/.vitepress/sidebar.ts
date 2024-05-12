@@ -134,3 +134,27 @@ export function sidebarSenior() {
     },
   ]
 }
+
+export function sidebarReading() {
+  return [
+    {
+      text: '文学',
+      collapsed: true,
+      items: [
+        { text: '一句顶一万句', link: '/reading/yi-ju-ding-yi-wan-ju' }
+      ]
+    },
+  ]
+}
+
+export function sidebarWriting() {
+  return [
+    {
+      text: '小品文',
+      collapsed: true,
+      items: [
+        { text: '小品文', link: '/writing/index' }
+      ]
+    },
+  ]
+}
