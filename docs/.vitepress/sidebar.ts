@@ -16,12 +16,12 @@ export function sidebarJunior() {
       text: '七年级下册',
       collapsed: true,
       items: [
-        { text: '⭐ 河中石兽', link: '/junior/7-2-24-hezhongshishou' },
-        { text: '⭐ 短文两篇', link: '/junior/7-2-16' },
         { text: '⭐ 木兰诗', link: '/junior/7-2-8-mulanshi' },
         { text: '驿路梨花', link: '/junior/7-2-14-yilulihua' },
+        { text: '⭐ 短文两篇', link: '/junior/7-2-16' },
         { text: '紫藤萝瀑布', link: '/junior/7-2-17-zitengluopubu' },
         { text: '最苦与最乐', link: '/junior/7-2-15-zuikuyuzuile' },
+        { text: '⭐ 河中石兽', link: '/junior/7-2-24-hezhongshishou' },
       ]
     },
     {
